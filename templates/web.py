@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ZIVPN Enterprise Web Panel - External HTML Template
-Downloaded from: https://raw.githubusercontent.com/BaeGyee9/web-bot/main/templates/web.py
+Downloaded from: https://raw.githubusercontent.com/BaeGyee9/zivpn-web/main/templates/web.py
 """
 
 from flask import Flask, jsonify, render_template_string, request, redirect, url_for, session, make_response, g
@@ -16,10 +16,10 @@ CONFIG_FILE = "/etc/zivpn/config.json"
 DATABASE_PATH = os.environ.get("DATABASE_PATH", "/etc/zivpn/zivpn.db")
 LISTEN_FALLBACK = "5667"
 RECENT_SECONDS = 120
-LOGO_URL = "https://raw.githubusercontent.com/BaeGyee9/khaing/main/logo.png"
+LOGO_URL = "https://raw.githubusercontent.com/BaeGyee9/zivpn-web/main/logo.png"
 
 # GitHub Template URL
-HTML_TEMPLATE_URL = "https://raw.githubusercontent.com/BaeGyee9/web-bot/main/templates/index.html"
+HTML_TEMPLATE_URL = "https://raw.githubusercontent.com/BaeGyee9/zivpn-web/main/templates/index.html"
 
 # --- Localization Data ---
 TRANSLATIONS = {
